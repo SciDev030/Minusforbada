@@ -10,3 +10,7 @@ Version: 0.9.0
 
 * **upload** doesnt work correct
 * **download** not allowed on bada
+
+## Licence
+
+The MIT License (MIT)
