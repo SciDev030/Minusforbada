@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="target-densitydpi=high-dpi, user-scalable=no" />
+<title>Minus</title>
+<link href="osp://webapp/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="osp://webapp/js/webapp_core.js"> </script>
+<script type="text/javascript" src="osp://webapp/js/webapp_ui.js"> </script>
+<!-- Plugins -->
+<script type="text/javascript" src="./js/libs/decoder.js"> </script>
+<script type="text/javascript" src="./js/MinusUtilities.js"> </script>
+<!-- Configurations -->
+<script type="text/javascript" src="./js/MinusLanguage.js"> </script>
+<script type="text/javascript" src="./js/MinusGlobal.js"> </script>
+<script type="text/javascript" src="./js/MinusStyle.js"> </script>
+<!-- Pages -->
+<script type="text/javascript" src="./js/MinusMessages.js"> </script>
+<script type="text/javascript" src="./js/MinusSettings.js"> </script>
+<script type="text/javascript" src="./js/MinusUser.js"> </script>
+<script type="text/javascript" src="./js/MinusMain.js"> </script>
+<script type="text/javascript" src="./js/Minus.js"> </script>
+<script>
+	Osp.App.Application.addEventListener("initializing", function()
+	{
+		Osp.Ui.init();
+		frameObj = Osp.Ui.Controls.Frame.getInstance();
+		appObj = new Minus(frameObj);
+		appObj.launch();
+	}, this);
+</script>
+</head>
+<body>
+</body>
+</html>

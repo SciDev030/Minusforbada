@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<widget>
+	<access origin="https://minus.com/" subdomains="true"/>
+	<access origin="http://minus.com/" subdomains="true"/>
+	<access origin="http://dgbc7tshfzi70.cloudfront.net" subdomains="true"/>
+</widget>

@@ -1,0 +1,25 @@
+<?xml version='1.0' ?>
+<Manifest>
+    <Id>34yakxj67y</Id>
+    <Secret>5328BD35CF6149D7D561831CA5DB8444</Secret>
+  <AppVersion>0.8.8</AppVersion>
+  <ManifestVersion>1.2</ManifestVersion>
+  <AppType>WebApp</AppType>
+    <Privileges>
+        <Privilege>
+            <Name>CAMERA</Name>
+        </Privilege>
+        <Privilege>
+            <Name>RECORDING</Name>
+        </Privilege>
+        <Privilege>
+            <Name>SYSTEM_SERVICE</Name>
+        </Privilege>
+        <Privilege>
+            <Name>WEB_SERVICE</Name>
+        </Privilege>
+    </Privileges>
+    <DeviceProfile>
+        <APIVersion>2.0</APIVersion>
+    </DeviceProfile>
+</Manifest>
